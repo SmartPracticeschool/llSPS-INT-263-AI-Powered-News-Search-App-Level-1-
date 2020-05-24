@@ -3,7 +3,7 @@ AI Powered News Search App (Level-1)
 
 # Files:
 Watson-discovery-app/* -> Files related to services of IBM watson<br>
-llSPS_INT_263_AI Powered News Search App (Level-1).pdf -> Project report
+llSPS_INT_263_AI Powered News Search App (Level-1).pdf -> Project report<br>
 Project Overview & Mentoring.webm -> Presenting whole project and feedback of mentoring<br>
 flow graph.pnf -> Node-RED flow<br>
 flows.json -> json file of flow<br>
@@ -16,3 +16,5 @@ Being aware of daily news is crucial thing for everyone. For that we can get thi
 Here in this project we have deployed this news search app that searches news based on the keywords we give, and retrieve that news with most popularity filter. <br>
 Moreover, for integration part, we integrated whole service with Slack. Where we can chat with that bot to get desired news.<br>
 
+# Internship Feedback
+This internship has been most learning period of my life. Because before this I was not introduced to Node or IBM watson, so this internship gave me lot of learnings.
