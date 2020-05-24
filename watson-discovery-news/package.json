@@ -1,0 +1,76 @@
+{
+  "name": "watson-discovery-news",
+  "version": "1.0.0",
+  "private": true,
+  "main": "app.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM/watson-discovery-news.git"
+  },
+  "scripts": {
+    "start": "node --max_old_space_size=512 app.js",
+    "start:watch": "nodemon app.js",
+    "bootstrap": "cp env.sample .env",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.5.0",
+    "babel-loader": "^8.0.5",
+    "babelify": "^10.0.0",
+    "bluebird": "^3.5.0",
+    "botkit": "^0.7.4",
+    "cf-deployment-tracker-client": "*",
+    "cfenv": "^1.2.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-browserify": "^1.0.3",
+    "express-react-views": "^0.11.0",
+    "ibm-watson": "^4.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.22.2",
+    "nodemon": "^1.17.5",
+    "prop-types": "^15.6.1",
+    "query-string": "^4.3.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "recharts": "^1.0.0-alpha.0",
+    "rss": "^1.2.2",
+    "shell-quote": "^1.6.1",
+    "shrinkwrap": "^0.4.0",
+    "uglifyify": "^5.0.2",
+    "vcap_services": "^0.2.0",
+    "watson-react-components": "^0.6.19"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.7.1",
+    "jest-cli": "^24.7.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}
