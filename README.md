@@ -3,6 +3,7 @@ AI Powered News Search App (Level-1)
 
 # Files:
 Watson-discovery-app/* -> Files related to services of IBM watson<br>
+llSPS_INT_263_AI Powered News Search App (Level-1).pdf -> Project report
 Project Overview & Mentoring.webm -> Presenting whole project and feedback of mentoring<br>
 flow graph.pnf -> Node-RED flow<br>
 flows.json -> json file of flow<br>
